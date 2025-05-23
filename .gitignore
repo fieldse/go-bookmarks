@@ -1,0 +1,38 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build artifacts
+/build/
+/bin/
+/dist/
+
+# Vendor directories (if not using Go modules)
+vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Go module files (optional if you're committing them)
+# go.sum
+
+# Logs
+*.log
+
+# OS-specific
+Thumbs.db
+.DS_Store
+
+# VSCode
+.vscode
+*.code-workspace
+
